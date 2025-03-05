@@ -1,0 +1,243 @@
+
+body {
+    
+        font-family: "Segoe UI", sans-serif;
+    
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+a {
+color: #fff;
+text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-weight: 500;
+}
+
+.container {
+max-width: 1440px;
+margin: 0% auto;
+}
+
+.header {
+    border-bottom: 6px solid rgb(20, 20, 20);
+padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__logo {
+
+}
+
+.header__nav {
+
+}
+
+.header__list {
+display: flex;
+gap: 25px;
+}
+
+.header__nav a {
+    
+    font-size: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.header__nav a:hover {
+    opacity: 0.9;
+}
+
+.header__nav a.active {
+opacity: 1;
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+font-weight: 500;
+
+width: 165px;
+height: 49px;
+
+background: #567d94;
+border-radius: 5px;
+
+transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* это welcome */
+
+.welcome {
+    text-shadow: #1c1c1c;
+    
+padding: 240px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 6px solid rgb(20, 20, 20);
+
+background-image : url("./картинки/image-photoaidcom-darken.jpg")
+}
+
+.welcome__text {
+    text-shadow: #1c1c1c;
+
+    
+    width: 550px;
+}
+
+
+
+
+.welcome__title {
+    text-shadow: #1c1c1c;
+font-size: 58px;
+margin: 0%;
+}
+
+.welcome__desc {
+    margin: 40px 0;
+font-size: 18px;
+opacity: 0.7;
+}
+
+/* глав-текст */
+
+.glav__text {
+    
+}
+
+.info {
+    padding: 45px;
+    
+    font-size: 20px;
+    width: 1000px;
+}
+
+/* конец */
+
+.footer {
+    background-color: rgb(22, 22, 22);
+    
+   
+    
+}
+
+.footer a {
+    color: #9788f8;
+}
+
+.end__a {
+    padding: 45px 0;
+    text-decoration:black
+}
+
+.end__text {
+    padding: 45px 0;
+    border-bottom: 6px solid rgb(17, 17, 17);
+}
+
+/* это роли велкоме */
+
+
+.rol__welcome {
+    text-shadow: #1c1c1c;
+    
+padding: 240px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 6px solid rgb(20, 20, 20);
+
+background-image : url("./картинки/imagaaa.avif")
+}
+
+.rol__welcome__text {
+    text-shadow: #1c1c1c;
+
+    
+    width: 550px;
+}
+
+
+
+
+.rol__welcome__title {
+    text-shadow: #1c1c1c;
+font-size: 58px;
+margin: 0%;
+}
+
+.rol__welcome__desc {
+    margin: 40px 0;
+font-size: 18px;
+opacity: 0.7;
+}
+
+/* это правила */
+
+.prav__welcome {
+    text-shadow: #1c1c1c;
+    
+padding: 240px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 6px solid rgb(20, 20, 20);
+
+background-image : url("./картинки/imageaaaaaaaaaaaaaaaa.avif")
+}
+
+.prav__welcome__text {
+    text-shadow: #1c1c1c;
+
+    
+    width: 550px;
+}
+
+
+
+
+.prav__welcome__title {
+    text-shadow: #1c1c1c;
+font-size: 58px;
+margin: 0%;
+}
+
+.prav__welcome__desc {
+    margin: 40px 0;
+font-size: 18px;
+opacity: 0.7;
+}
+
+/* molodec52 */
+
+.molodec52 a {
+    color: #9788f8;
+}
